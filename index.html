@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="lib-interface">
+        <button class="new-book-btn remove-btn">Add New Book</button>
+        <form action="" class="new-book-form hidden padding-25px">
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title"><br>
+            <label for="author">Author</label>
+            <input type="text" id="author" name="author"><br>
+            <label for="pages">Page Number</label>
+            <input type="text" id="pages" name="pages"><br>
+            <label for="read">Did you read this book already?</label>
+            <input type="checkbox" id="read" name="read"><br>
+            <input type="submit" value="Submit" id="new-book-submit">
+        </form>
+    </div>
+    <div class="container">
+        <h1 class="padding-25px">Library</h1>
+        <div class="book-container">
+            <div class="in-header">Title</div>
+            <div class="in-header">Author</div>
+            <div class="in-header">Pages</div>
+            <div class="in-header">Status (click text to change status)</div>
+            <div class="in-header">Remove Book From Library</div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

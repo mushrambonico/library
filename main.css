@@ -1,0 +1,87 @@
+* {
+    font-family: 'Recursive', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 3% auto;
+    background-color: #4a3c30;
+    color: #d3d3d3;
+    box-shadow: 10px 10px #c4aca4;
+}
+
+.book-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.book-container div {
+    width: 150px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.padding-25px {
+    padding: 25px 25px 0 25px;
+}
+
+.in-header {
+    font-weight: bolder;
+    /* font-size: 20px; */
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.hidden {
+    display: none;
+}
+
+.lib-interface {
+    text-align: center;
+    width: 80%;
+    margin: 3% auto;
+}
+
+.remove-btn {
+    background-color: #5F021F;
+    border: 2px solid #d3d3d3;
+    color: #d3d3d3;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+.silver-line {
+    margin: 15px auto;
+    color: #d3d3d3;
+    width: 80%;
+}
+
+.link-btn {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.new-book-form {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #d3d3d3;
+    border: 1px solid black;
+    z-index: 1;
+}
+
+.shadow-bg {
+    background-color: rgba(0, 0, 0, 0.6);
+}
